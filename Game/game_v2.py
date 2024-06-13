@@ -2,7 +2,6 @@
 """Игра угадай число
 Компьютер сам загадывает и сам угадывает число
 """
-# test1
 
 import numpy as np
 
@@ -53,3 +52,5 @@ def score_game(game_core_v3) -> int:
 
     score = int(np.mean(count_ls))      
     return score
+
+print(score_game(game_core_v3))
